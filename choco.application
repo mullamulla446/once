@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <assemblyIdentity name="choco.app" version="1.0.0.0" publicKeyToken="c7a4bacfdd881162" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <description asmv2:publisher="choco" asmv2:product="choco" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <deployment install="true">
+    <subscription>
+      <update>
+        <expiration maximumAge="0" unit="days" />
+      </update>
+    </subscription>
+    <deploymentProvider codebase="https://mullamulla446.github.io/once/choco.application" />
+  </deployment>
+  <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
+    <framework targetVersion="4.8" profile="Client" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
+  </compatibleFrameworks>
+  <dependency>
+    <dependentAssembly dependencyType="install" codebase="choco.manifest" size="7279">
+      <assemblyIdentity name="choco.exe" version="1.0.0.0" publicKeyToken="af0e777767f44d09" language="neutral" processorArchitecture="msil" type="win32" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NL+owvGVBptzA6cU2KORVT+tIuvCNdefsSbokWn8gu4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=WINDOWSS10\vboxuser" issuerKeyHash="1190e0b29c200ec7b662394111a94db2aaa9ba0d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>uB51zviI6swGVO5BJVfWg3eLm8Vj3B0jlsxU4bVL1kE=</DigestValue></Reference></SignedInfo><SignatureValue>iGpk27ck7a0WUxAwt0D2Ng7HvDRm1+JUyX1zmTYbmPhFA7CATk8u1QLfWqNBRlB/ZzXFQludCVXjexJi6iCq6tmeKw8amivMwehh1EFTKdUH/Kb5qoW2yK5zklZo7qg4XsJp+yo+ORV/CAjiNVkO+O6/OrQLlG/NXpu92bDdnqA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1BT4FyCKUFAnB2wpClL9qIyJbfpFDBUEgektJ6Eaa+3siPdTGt58m2i3OCdY8poXnLG6jNmL1vd6AkinKd3mbagG1ho2Hfyc1thN56V26P1t5mA97VMqlHfOC5chRiN0YvpB/Y1nXYhH091NfU3cDCwR07ylEYVkig1UjqtMSwk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="41d64bb5e154cc96231ddc63c59b8b7783d6572541ee5406ccea88f8ce751eb8" Description="" Url=""><as:assemblyIdentity name="choco.app" version="1.0.0.0" publicKeyToken="c7a4bacfdd881162" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WINDOWSS10\vboxuser</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3M/Vbj1P6ITJuhTvvDoz3aryCxVoktPf9qG1zQmPIO8=</DigestValue></Reference></SignedInfo><SignatureValue>QKrHea2bxu0X/K/hiitxTyesbKOMnOxAjgVACiu4jCPHzH7qqTdTSsr1n1g9+zdyZxp1MWpVcNG+tFvh0r/94B1kQmgy5m5ZXNF8uXRR9GvdtM3ROOR2pEYsSY15wDa0HEjc75+DFsW0G2fOISJVwEVHv8t3d7RLHhblZn0u/Ic=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1BT4FyCKUFAnB2wpClL9qIyJbfpFDBUEgektJ6Eaa+3siPdTGt58m2i3OCdY8poXnLG6jNmL1vd6AkinKd3mbagG1ho2Hfyc1thN56V26P1t5mA97VMqlHfOC5chRiN0YvpB/Y1nXYhH091NfU3cDCwR07ylEYVkig1UjqtMSwk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/jCCAWegAwIBAgIQTSLqnVZlXq1FaTc29blkOjANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAVwBJAE4ARABPAFcAUwBTADEAMABcAHYAYgBvAHgAdQBzAGUAcjAeFw0yNDA5MjQwNDI5MjlaFw0zOTAxMDIwMDAwMDBaMDExLzAtBgNVBAMeJgBXAEkATgBEAE8AVwBTAFMAMQAwAFwAdgBiAG8AeAB1AHMAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUFPgXIIpQUCcHbCkKUv2ojIlt+kUMFQSB6S0noRpr7eyI91Ma3nybaLc4J1jymhecsbqM2YvW93oCSKcp3eZtqAbWGjYd/JzW2E3npXbo/W3mYD3tUyqUd84LlyFGI3Ri+kH9jWddiEfT3U19TdwMLBHTvKURhWSKDVSOq0xLCQIDAQABoxcwFTATBgNVHSUEDDAKBggrBgEFBQcDAzANBgkqhkiG9w0BAQsFAAOBgQB24ZlXVdGGfFKifLKPtYsOo4m/m5FkuNMk6xzvhdtaD21tYCXfmiZkHBVPZQjlGUnXUHRxo8T2i97KX0HmQCV5F67CnhrusD19OXfcdS/rICrAdGV1qr7gHXTUyWbIBwN2KyMfS0Lg0N4RthdGQInK+kfL8rg3hU5WoDhxgeiE7Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
